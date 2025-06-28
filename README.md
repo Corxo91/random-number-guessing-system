@@ -70,7 +70,7 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
 
 1. **Clona el repositorio o descarga el código fuente**  
    ```bash
-   git clone 
+   git clone https://github.com/Corxo91/random-number-guessing-system.git
    cd random-number-guessing-system
    ```
 
