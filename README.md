@@ -10,7 +10,7 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
 ## Requisitos previos
 
 ### **Java 17** (Para linux )
-    En Ubuntu/Debian:
+- **En Ubuntu/Debian:**
     ```bash
    sudo apt update
    sudo apt install openjdk-17-jdk
