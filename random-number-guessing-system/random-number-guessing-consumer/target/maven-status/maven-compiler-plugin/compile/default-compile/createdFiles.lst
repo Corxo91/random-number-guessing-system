@@ -1,0 +1,5 @@
+santana/marcos/controller/GuessController.class
+santana/marcos/RandomNumberGuessingConsumerApplication.class
+santana/marcos/controller/WebController.class
+santana/marcos/service/GuessService.class
+santana/marcos/client/ProviderClient.class

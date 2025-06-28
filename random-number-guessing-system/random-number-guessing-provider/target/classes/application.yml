@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: random-number-guessing-provider
+  datasource:
+    url: jdbc:mysql://localhost:3306/guessing_game?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Chinosdb
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+cloud:
+  nacos:
+    discovery:
+      server-addr: 127.0.0.1:8848

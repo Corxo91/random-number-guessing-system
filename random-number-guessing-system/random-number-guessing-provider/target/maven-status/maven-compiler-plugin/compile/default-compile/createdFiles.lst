@@ -1,0 +1,5 @@
+santana/marcos/entity/RandomNumber.class
+santana/marcos/RandomNumberGuessingProviderApplication.class
+santana/marcos/controller/RandomNumberController.class
+santana/marcos/service/RandomNumberService.class
+santana/marcos/mapper/RandomNumberMapper.class

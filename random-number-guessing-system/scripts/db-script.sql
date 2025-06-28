@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS guessing_game
+  DEFAULT CHARACTER SET utf8mb4
+  DEFAULT COLLATE utf8mb4_unicode_ci;
+
+USE guessing_game;
+
+CREATE TABLE IF NOT EXISTS random_number (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  number INT NOT NULL
+);
