@@ -22,8 +22,8 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
    sudo apt install maven
     ```
 ### **Nacos**
-    - descargar archivo **nacos-server-2.5.1.tar.gz** en la siguiente url https://github.com/alibaba/nacos/releases/tag/2.5.1 (Esta al final del sitio web)
-    En Ubuntu/Debian:
+- descargar archivo **nacos-server-2.5.1.tar.gz** en la siguiente url https://github.com/alibaba/nacos/releases/tag/2.5.1 (Esta al final del sitio web)
+- **En Ubuntu/Debian:**
     ```bash
    tar -zxvf nacos-server-*.tar.gz
    cd nacos/bin
