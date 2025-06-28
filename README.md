@@ -15,13 +15,13 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
    sudo apt update
    sudo apt install openjdk-17-jdk
     ```
-### - **Maven 3.8+**
+###  **Maven 3.8+**
 - **En Ubuntu/Debian:**
     ```bash
    sudo apt update
    sudo apt install maven
     ```
-- **Nacos**
+### **Nacos**
     - descargar archivo **nacos-server-2.5.1.tar.gz** en la siguiente url https://github.com/alibaba/nacos/releases/tag/2.5.1(Esta al final del sitio web)
     En Ubuntu/Debian:
     ```bash
@@ -29,7 +29,7 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
    cd nacos/bin
    bash startup.sh -m standalone
     ```
-### - **MySQL 8+**
+###  **MySQL 8+**
 
 ## 1. Instalación y configuración de MySQL
 
