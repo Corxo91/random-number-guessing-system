@@ -15,8 +15,8 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
    sudo apt update
    sudo apt install openjdk-17-jdk
     ```
+
 ### - **Maven 3.8+**
-- **sudo apt update**
     En Ubuntu/Debian:
     ```bash
    sudo apt update
