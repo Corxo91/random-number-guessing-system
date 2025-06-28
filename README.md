@@ -34,14 +34,14 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
 ## 1. Instalación y configuración de MySQL
 
 1. **Instala MySQL**  
-   En Ubuntu/Debian:
+- **En Ubuntu/Debian:**
    ```bash
    sudo apt update
    sudo apt install mysql-server
    ```
 
 2. **Configura la seguridad de mysql**
-    En Ubuntu/Debian:
+- **En Ubuntu/Debian:**
     ```bash
     sudo mysql_secure_installation
     ```
@@ -49,6 +49,7 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
   
 
 3. **Configura el usuario root para autenticación por contraseña**  
+- **En Ubuntu/Debian:**
    ```bash
    sudo mysql
    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'TuPasswordSegura';
@@ -57,17 +58,19 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
    ```
 
 4. **Crea la base de datos y las tablas necesarias**  
-  Usando el script dentro de la carpeta scripts, ejecutalo de la siguiente manera:
+- **En Ubuntu/Debian:**
+- Usando el script dentro de la carpeta scripts, ejecutalo de la siguiente manera:
    ```bash
    mysql -u root -p < /ruta/al/archivo/db-script.sql
    ```
-   Tambien puedes estando en la raiz del proyecto navegar a la carpeta scripts, y aho ejecutar el mismo comando, pero solo escribiendo el nombre del archivo, en lugar de toda la ruta.
+- Tambien puedes estando en la raiz del proyecto navegar a la carpeta scripts, y aho ejecutar el mismo comando, pero solo escribiendo el nombre del archivo, en lugar de toda la ruta.
 
 ---
 
 ## 2. Configuración del proyecto
 
 1. **Clona el repositorio o descarga el código fuente**  
+- **En Ubuntu/Debian:**
    ```bash
    git clone https://github.com/Corxo91/random-number-guessing-system.git
    cd random-number-guessing-system
@@ -87,8 +90,7 @@ Este proyecto es un sistema de microservicios en Java Spring Boot, compuesto por
 ---
 
 ## 3. Compilación
-
-Desde la raíz del proyecto:
+- Desde la raíz del proyecto:
 ```bash
 mvn clean install
 ```
@@ -117,18 +119,18 @@ mvn spring-boot:run
 
 ### 5.1. API REST
 
-Puedes hacer peticiones POST al endpoint del consumer:
+- Puedes hacer peticiones POST al endpoint del consumer:
 ```bash
 curl -X POST "http://localhost:8082/guess?number=50"
 ```
 
 ### 5.2. Interfaz Web
 
-Abre en tu navegador:
+- Abre en tu navegador:
 ```
 http://localhost:8082/
 ```
-Allí podrás ingresar un número, hacer clic en "Guess" y ver el resultado.
+- Allí podrás ingresar un número, hacer clic en "Guess" y ver el resultado.
 
 ---
 
